@@ -1,3 +1,5 @@
+# MLProject
+
 Venv Activation:
 "source venv/bin/activate"
 
@@ -7,4 +9,4 @@ pandas: For data handling. This manages data in tables like a spreadsheet.
 
 scikit-learn: For ML models. This imports models like LinearRegression that predicts numbers using a straight line.  
 
-matplotlib: For plotting. This makes the graphs and plots for visual references. # MLProject
+matplotlib: For plotting. This makes the graphs and plots for visual references. 
