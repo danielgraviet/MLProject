@@ -1,4 +1,4 @@
-import numpy as np # handels math and arrays
+import numpy as np # handles math and arrays
 import pandas as pd # spreadsheet for data. 
 import matplotlib.pyplot as plt # makes graphs and plots
 from sklearn.linear_model import LinearRegression # model for ML, uses a straight line. 
@@ -10,11 +10,11 @@ data = {
     'Price': [150000, 200000, 240000, 280000, 350000, 400000, 450000, 480000, 550000, 650000]
 }
 
-# turn the data into a dataFram which is a table-like structure
+# turn the data into a dataFrame which is a table-like structure
 dataFrame = pd.DataFrame(data) 
 
 # prepare the data for the model
-X = dataFrame[['Size']] # why is this capitolized? 
+X = dataFrame[['Size']] # why is this capitalized?
 y = dataFrame['Price']
 
 # split data into training and a testing set
